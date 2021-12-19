@@ -110,7 +110,7 @@ img {
   position: relative;
   margin: o;
   width: 50%;
-  height: 150px;
+  height: auto;
 }
 
 .project-title {
@@ -129,8 +129,36 @@ img {
   font-size: 13px;
 }
 
-#project-1 {
+.work-item:first-child {
   width: 100%;
+}
+
+
+.hero-text {
+
+}
+
+.project-title img {
+  display: flex;
+  width: auto;
+  height: fit-content;
+  justify-items: center;
+}
+
+#project-2 {
+  
+}
+
+#project-3 {
+  
+}
+
+#project-4 {
+  
+}
+
+#project-5 {
+  
 }
 
 /* Contact Block */
