@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Block */
+header  {
+  background-color: darkcyan;
+  color: cyan;
+  padding: 30px;
+}
+
+header h1 {
+  display: inline-block;
+  /* float: left; */
+  /* background-color: cyan; */
+  color: cyan;
+  font-size: 48px;
+  position: relative;
+  align-items: center;
+}
+
+nav {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  padding-top: 15px;
+  font-size: 30px;
+}
+
+header nav ul li {
+  display: inline-block;
+  flex-direction: row;
+  margin-right: 75px;
+  margin-top: -20px;
+} 
+
+header nav ul li a {
+  color: cyan;
+  font-size: 20px;
+}
+
+/* Main Block */
+
+/* subheader */
+img {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+.subheader h2 {
+  display: block;
+  position: absolute;
+  top: 160px;
+  left: 1700px;
+  color: darkcyan;
+}
+
+/* Main Block */
+.horizontal-block {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  height: auto;
+}
+
+.h-block-title {
+  border-right: 5px solid darkcyan;
+  width: 25%;
+  text-align: right;
+  padding: 20px;
+  height: auto;
+  font-size: 30px;
+}
+
+/* About Me Block */
+.about-me-text {
+  width: 75%;
+  padding: 20px;
+  display: inline-block;
+  margin: auto;
+  text-align: start;
+  color: #025555;
+}
+
+ /* Work Block */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 75%;
+}
+
+.project-blocks {
+    width: auto auto;
+}
+
+.work-item {
+  display: block;
+  position: relative;
+  margin: o;
+  width: 50%;
+  height: 150px;
+}
+
+.project-title {
+  display: block;
+  position: relative;
+  width: fit-content;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: aqua;
+  padding: 5px;
+  top: 90px;
+}
+
+.work-item p {
+  margin: 5px;
+  font-size: 13px;
+}
+
+#project-1 {
+  width: 100%;
+}
+
+/* Contact Block */
+.contact-block {
+  width: 75%;
+  font-size: 20px;
+}
+
+.contact-block ul {
+  justify-content: space-between;
+  display: flex;
+  height: 100%;
+  color: #025555;
+}
+.contact-type {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+
