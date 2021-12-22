@@ -10,3 +10,5 @@ This image shows the completed assignment's appearance, and functionality:
 ! [second half of website](./assets/images/prof-port-screen-2.png)
 
 ## Link to Deployed Site
+
+https://knolan18.github.io/2-professional-portfolio/
